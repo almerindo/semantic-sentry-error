@@ -24,7 +24,14 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run yarn
-      run: | 
+      run: |
         echo Running yarn
         yarn
         yarn test
+
+    - name: Runnin Semantic Relese
+      run: yarn semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
