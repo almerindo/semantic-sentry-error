@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.6...v1.0.7) (2020-04-19)
+
+
+### Bug Fixes
+
+* path to find package.json ([ac9a2c1](https://github.com/almerindo/semantic-sentry-error/commit/ac9a2c1f4d04f6ad51842b8a5c810754f232efea))
+
 ## [1.0.6](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.5...v1.0.6) (2020-04-19)
 
 
