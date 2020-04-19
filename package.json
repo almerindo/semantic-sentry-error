@@ -69,7 +69,6 @@
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "publish": "semantic-release --no-ci"
   },
   "dependencies": {
     "@sentry/node": "^5.15.4"
