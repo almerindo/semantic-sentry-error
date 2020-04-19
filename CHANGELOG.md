@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.3...v1.0.4) (2020-04-19)
+
+
+### Bug Fixes
+
+* Del script on package.json ([c801d00](https://github.com/almerindo/semantic-sentry-error/commit/c801d00aa3815aaebcb41b90b36b405dd11093b6))
+* fix a bug  on package.json ([9440479](https://github.com/almerindo/semantic-sentry-error/commit/9440479878db00f00381af84525cff56ec42951f))
+
 ## [1.0.3](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.2...v1.0.3) (2020-04-19)
 
 
