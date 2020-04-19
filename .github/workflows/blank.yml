@@ -26,9 +26,5 @@ jobs:
     - name: Run yarn
       run: | 
         echo Running yarn
-        yarn --version
-
-    - name: Vendo se instala
-      run: |
-        echo npm --version
-        npm --version
+        yarn
+        yarn test
