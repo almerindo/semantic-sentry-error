@@ -52,13 +52,13 @@ class SemanticErrorSentry {
         return error;
     }
     setNamePackage() {
-        this.tagNamePackage = require(`${this.rootPathJSON}/../../../package.json`).name;
+        this.tagNamePackage = require(`${this.rootPathJSON}/../../../../../../package.json`).name;
         if (!this.tagNamePackage) {
             throw new Error('Please specify the propertie "name": in package.json');
         }
     }
     setTagReleaseVersion() {
-        this.tagVersion = require(`${this.rootPathJSON}/../../../package.json`).version;
+        this.tagVersion = require(`${this.rootPathJSON}/../../../../../../package.json`).version;
         if (!this.tagVersion) {
             throw new Error('Please specify the propertie "version": in package.json');
         }
