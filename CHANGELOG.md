@@ -1,3 +1,15 @@
+## [1.0.3](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.2...v1.0.3) (2020-04-19)
+
+
+### Bug Fixes
+
+* ci yml ([22137dc](https://github.com/almerindo/semantic-sentry-error/commit/22137dc43bfc05f7814b6feac61cf407e2a1ed27))
+* ci yml ([b56a484](https://github.com/almerindo/semantic-sentry-error/commit/b56a484ea3a04163378814e6af866cbe8bf48a0b))
+* testando yaml ([053da92](https://github.com/almerindo/semantic-sentry-error/commit/053da9254d23224f472dc36cd4718ff473ad5d67))
+* teste yaml ([f8e7374](https://github.com/almerindo/semantic-sentry-error/commit/f8e7374ee7896f097ae6cc1994c63a9b9ead0e8d))
+* yarn test ([7bba509](https://github.com/almerindo/semantic-sentry-error/commit/7bba509616eb63506a19c669581f39468581bcec))
+* yml ([94a60fc](https://github.com/almerindo/semantic-sentry-error/commit/94a60fcf5cc82aec3f1709daa4f5cc0b9ae64af0))
+
 ## [1.0.2](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.1...v1.0.2) (2020-04-19)
 
 
