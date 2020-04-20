@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/almerindo/semantic-sentry-error/compare/v1.2.1...v1.2.2) (2020-04-20)
+
+
+### Bug Fixes
+
+*  on CI/CD  .env ([e956726](https://github.com/almerindo/semantic-sentry-error/commit/e9567260807bbf45e7744ca7865087aa66104b80))
+
 ## [1.2.1](https://github.com/almerindo/semantic-sentry-error/compare/v1.2.0...v1.2.1) (2020-04-20)
 
 
