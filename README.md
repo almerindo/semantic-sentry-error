@@ -1,5 +1,6 @@
 [![TypeScript version][ts-badge]][typescript-38]
-[![Node.js version][nodejs-badge]][nodejs]
+
+[![Nodejs version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][LICENSE]
 
 
@@ -7,7 +8,7 @@
 
 ## Getting Started
 
-Este projeto tem como objetivo padronizar e permitir rastrear ou reproduzir os erros que são armazenadas no Sentry.
+This project aims to allow tracking or reproducing the errors stored in Sentry.
 
 ### Use as standard 
 
