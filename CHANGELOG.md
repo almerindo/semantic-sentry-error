@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/almerindo/semantic-sentry-error/compare/v1.2.2...v1.2.3) (2020-04-20)
+
+
+### Bug Fixes
+
+* doc on readme ([b553cd9](https://github.com/almerindo/semantic-sentry-error/commit/b553cd9d0fc9ce91e5f3d7dc103b605c71105051))
+
 ## [1.2.2](https://github.com/almerindo/semantic-sentry-error/compare/v1.2.1...v1.2.2) (2020-04-20)
 
 
