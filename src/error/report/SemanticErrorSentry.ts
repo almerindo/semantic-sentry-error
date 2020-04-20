@@ -32,11 +32,6 @@ class SemanticErrorSentry {
       scope.setTag('Name Package', this.tagNamePackage)
     });
 
-    console.log('Release', this.tagVersion)
-    console.log('Name Package', this.tagNamePackage)
-    console.log('NODE_ENV',process.env.NODE_ENV)
-    console.log('SENTRY_DSN',process.env.SENTRY_DSN)
-    console.log(`__DIRNAME: ${__dirname}`)
   }
 
   public getSentry(): any{
@@ -105,7 +100,7 @@ class SemanticErrorSentry {
         throw new Error('Please specify the propertie "name": in package.json');
       }
     } catch (error) {
-      console.error(error);
+      console.error(`Cant determine the name properties on ${this.pathJSON}/package.json`);
       Sentry.captureException(error);
     }
   }
@@ -117,7 +112,7 @@ class SemanticErrorSentry {
         throw new Error('Please specify the propertie "name": in package.json');
       }
     } catch (error) {
-      console.error(error);
+      console.error(`Cant determine the release properties on ${this.pathJSON}/package.json`);
       Sentry.captureException(error);
     }
   }
