@@ -1,6 +1,6 @@
 {
   "name": "semantic-sentry-error",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Semantic Sentry Error Repot.",
   "engines": {
     "node": ">= 12.13 <13"
