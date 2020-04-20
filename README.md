@@ -57,7 +57,7 @@ Create a .env :
 ```
 NODE_ENV=development
 SENTRY_DSN=<YOUR_DSN_SENTRY>
-PATH_PACKAGE_SON=/home/PATH_OF_myfirstproject
+#PATH_PACKAGE_SON=/home/PATH_OF_myfirstproject
 ```
 
 
