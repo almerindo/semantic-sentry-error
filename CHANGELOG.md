@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/almerindo/semantic-sentry-error/compare/v1.1.0...v1.2.0) (2020-04-20)
+
+
+### Features
+
+* add PATH_PACKAGE_SON in .env ([d05ad08](https://github.com/almerindo/semantic-sentry-error/commit/d05ad081d781faf9df3f79cf7e68267daae8d04c))
+
 # [1.1.0](https://github.com/almerindo/semantic-sentry-error/compare/v1.0.7...v1.1.0) (2020-04-20)
 
 
