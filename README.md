@@ -1,7 +1,4 @@
-[![TypeScript version][ts-badge]][typescript-38]
-
-[![Nodejs version][nodejs-badge]][nodejs]
-[![APLv2][license-badge]][LICENSE]
+[![TypeScript version][ts-badge]][typescript-38][![Nodejs version][nodejs-badge]][nodejs][![APLv2][license-badge]][LICENSE]
 
 
 # semantic-sentry-error
