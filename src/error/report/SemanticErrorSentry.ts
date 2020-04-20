@@ -11,12 +11,12 @@ class SemanticErrorSentry {
   private tagVersion: string;
   private tagNamePackage: string;
   private static instance : SemanticErrorSentry;
-  private rootPathJSON=  __dirname;
-
+  private pathJSON :string;
 
   private constructor(){
 
-    this.rootPathJSON = (process.env.PATH_PACKAGE_SON)? process.env.PATH_PACKAGE_SON: this.rootPathJSON;
+    this.pathJSON = process.env.PATH_PACKAGE_SON?
+      process.env.PATH_PACKAGE_SON:__dirname+'/../../../../../..';
 
     this.setTagReleaseVersion();
     this.setNamePackage();
@@ -99,17 +99,26 @@ class SemanticErrorSentry {
 
 
   private setNamePackage():void{
-
-    this.tagNamePackage = require(`${this.rootPathJSON}/../../../../../../package.json`).name
-    if (!this.tagNamePackage) {
-      throw new Error('Please specify the propertie "name": in package.json');
+    try {
+      this.tagNamePackage = require(`${this.pathJSON}/package.json`).name
+      if (!this.tagNamePackage) {
+        throw new Error('Please specify the propertie "name": in package.json');
+      }
+    } catch (error) {
+      console.error(error);
+      Sentry.captureException(error);
     }
   }
 
   private setTagReleaseVersion():void{
-    this.tagVersion = require(`${this.rootPathJSON}/../../../../../../package.json`).version
-    if (!this.tagVersion) {
-      throw new Error('Please specify the propertie "version": in package.json');
+    try {
+      this.tagNamePackage = require(`${this.pathJSON}/package.json`).version
+      if (!this.tagNamePackage) {
+        throw new Error('Please specify the propertie "name": in package.json');
+      }
+    } catch (error) {
+      console.error(error);
+      Sentry.captureException(error);
     }
   }
 

@@ -20,6 +20,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Configuring the .env to test
+      run: |
+        echo put info in .env
+        echo 'SENTRY_DSN=https://109629a6def448b2b95683d942287665@o319434.ingest.sentry.io/5200497' >> .env
+        echo 'PATH_PACKAGE_SON=../../..' >> .env
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
