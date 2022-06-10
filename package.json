@@ -56,7 +56,7 @@
     "jest": "~25.1.0",
     "prettier": "~1.19.1",
     "rimraf": "~3.0.2",
-    "semantic-release": "^17.0.6",
+    "semantic-release": "^19.0.3",
     "ts-jest": "~25.2.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "tsutils": "~3.17.0",
